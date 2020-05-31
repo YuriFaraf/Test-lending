@@ -1,0 +1,19 @@
+.features {
+  padding: 40px 0;
+  background: #f3f3f3;
+}
+
+.features-photo {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.features-info {
+  margin-top: 40px;
+  vertical-align: middle;
+}
+
+.features-list {
+  list-style-position: inside;
+}

@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+
+.button-pale {
+  background: #FF8B55;
+  color: #fff;
+}
+
+.button-pale:hover {
+  background: #FF7055;
+  transition: all ease .3s;
+}
+
+.button-bright {
+  background: #FF7055;
+  color: #fff;
+}
+
+.button-bright:hover {
+  background: #FF8B55;
+  transition: all ease .3s;
+}

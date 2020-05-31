@@ -1,0 +1,63 @@
+.fare-img {
+  width: 95%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.prices .title-small {
+  color: white;
+}
+
+.fare, .fare-head, .fare-footer {
+  border-radius: 3px;
+}
+
+.fare-head, .fare-footer {
+  background: #FF9F55;
+  color: white;
+  padding: 20px 0;
+}
+
+.fare {
+  background: #FADAA3;
+  border-bottom: 1px solid #FF8B55;
+  border-right: 1px solid #FF8B55;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.fare-head {
+  border-bottom: 1px solid #FF8B55;
+}
+
+.fare .fare-price {
+  font-weight: normal;
+}
+
+.fare-features-item {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.fare_featured {
+  background: #FF8B55;
+  border-color: #FF7055;
+}
+
+.fare_featured * {
+  color: #fff;
+}
+
+.fare_featured .text-medium,
+.fare_featured .text-lead {
+  color: #fff;
+}
+
+.fare_featured .fare-footer,
+.fare_featured .fare-head {
+  background: #FF7E55;
+  border-color: #FF7055;
+}
