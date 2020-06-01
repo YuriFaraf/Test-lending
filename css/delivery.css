@@ -1,11 +1,10 @@
 .delivery-map {
-  width: 100%;
+  margin-right: 10px;
+  width: 90%;
   height: auto;
   border-radius: 5px;
 }
 
 .delivery-lie {
-  width: 80%;
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 10px;
 }
