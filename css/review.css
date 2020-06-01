@@ -1,0 +1,21 @@
+.review {
+  margin-left: 20px;
+}
+
+.review-photo {
+  border-radius: 100%;
+  border: 3px;
+  border-color: gray;
+  height: 60px;
+  float: left;
+}
+
+.review-name:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.review-text {
+  width: 80%;
+}
