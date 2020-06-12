@@ -2,20 +2,57 @@
   margin-left: 20px;
 }
 
-.review-photo {
+.review-item {
+  display: flex;
+  max-width: 500px;
+}
+
+.review-author-photo {
   border-radius: 100%;
   border: 3px;
   border-color: gray;
   height: 60px;
-  float: left;
+  margin-right: 20px;
+  display: inline;
 }
 
-.review-name:after {
-  content: '';
-  display: block;
-  clear: both;
+.review-name {
+  font-weight: 600;
 }
 
 .review-text {
-  width: 80%;
+  display: flex;
+  position: relative;
+}
+
+.review-plus {
+  margin-left: 30px;
+}
+
+.review-minus {
+  margin-left: 50px;
+}
+
+.review-minus::before, .review-plus::before {
+  position: absolute;
+  top: 10px;
+  margin-left: -30px;
+  font-size: 25px;
+  line-height: 10px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.review-minus::before {
+  content: '-'
+}
+
+.review-plus::before {
+  content: '+'
+}
+
+@media (max-width: 500px) {
+  .review-author-photo {
+    display: none;
+  }
 }
