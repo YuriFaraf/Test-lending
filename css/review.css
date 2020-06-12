@@ -4,7 +4,7 @@
 
 .review-item {
   display: flex;
-  max-width: 500px;
+  /*max-width: 500px;*/
 }
 
 .review-author-photo {
@@ -23,6 +23,8 @@
 .review-text {
   display: flex;
   position: relative;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .review-plus {
