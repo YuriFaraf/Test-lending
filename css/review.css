@@ -23,6 +23,9 @@
 .review-text {
   display: flex;
   position: relative;
+}
+
+.review-part {
   width: 50%;
   box-sizing: border-box;
 }
